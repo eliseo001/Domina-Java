@@ -1,88 +1,90 @@
-# 🎓 Universidad Java - Proyectos y Ejercicios
+📚 Universidad Java - Ejercicios y Proyectos
 
-¡Bienvenido a mi repositorio personal de estudio de Java! Aquí encontrarás una colección completa de ejercicios, proyectos prácticos y laboratorios desarrollados durante mi formación con el curso más completo y actualizado de Java en Udemy: **Universidad Java** por Global Mentoring (2025).
+Bienvenido/a a mi repositorio de estudios avanzados en Java, donde documento mi progreso personal a través de más de 150 horas de práctica estructurada en el lenguaje y su ecosistema.
 
----
+Actualmente curso el 4to año de la carrera de Ingeniería en Software y estoy profundizando mis conocimientos en Java, con el objetivo de adquirir un dominio profesional del lenguaje y sus principales tecnologías asociadas.
+🚀 Sobre este repositorio
 
-## 👨‍💻 Sobre mí
+Aquí encontrarás ejercicios prácticos y proyectos organizados por niveles de dificultad, desarrollados a lo largo de una formación intensiva en Java. El enfoque del curso es progresivo, desde los fundamentos hasta la creación de aplicaciones empresariales completas, siguiendo buenas prácticas y patrones de diseño.
 
-Soy estudiante de **Ingeniería en Software** en cuarto año, apasionado por la programación y el desarrollo de software profesional. Aunque ya cuento con una base sólida en múltiples tecnologías, he decidido **profundizar en el lenguaje Java**, una de las herramientas más demandadas por el mercado laboral actual, para alcanzar un nivel de **Java Developer Senior**.
+Los ejercicios están desarrollados en:
 
-Mi objetivo es **conseguir una oportunidad profesional**, destacando tanto mi compromiso con el aprendizaje continuo como mi capacidad para construir aplicaciones reales desde cero.
+    Java 21
 
----
+    IntelliJ IDEA
 
-## 🚀 ¿Qué encontrarás en este repositorio?
+    MySQL
 
-Este repositorio está estructurado por **módulos**, cada uno representado como un subrepositorio o carpeta, correspondientes a diferentes etapas del curso. Cada módulo contiene ejemplos, prácticas guiadas, proyectos del mundo real y aplicaciones completas, con código limpio, estructurado y actualizado a:
+    Spring Boot, Hibernate, Jakarta EE, JSF, JSP, Thymeleaf
 
-- `Java 21`
-- `Spring Boot 3`
-- `Hibernate 6`
-- `Jakarta EE 11`
-- `Glassfish 8`
-- `React 18`, `Angular 18`, `Bootstrap 5` y más.
+    Swing, JavaFX
 
----
+    Angular y React para integración fullstack
 
-## 📚 Temario Abordado
+✅ Objetivos personales
 
-✅ **Fundamentos del lenguaje Java**  
-✅ **POO y Patrones de diseño**  
-✅ **Manejo de excepciones, archivos y colecciones**  
-✅ **Conexión a Bases de Datos con JDBC**  
-✅ **Desarrollo Web con Servlets, JSP, JSF, Thymeleaf**  
-✅ **Java Empresarial (Jakarta EE, EJB, JPA)**  
-✅ **Frameworks: Spring, Hibernate, Spring Boot**  
-✅ **Desarrollo Fullstack (React + Spring Boot, Angular + Spring Boot)**  
-✅ **Seguridad Web, Validaciones y Arquitectura MVC**  
-✅ **Tecnologías complementarias: HTML, CSS, JavaScript, Bootstrap**
+    Reforzar y dominar la Programación Orientada a Objetos (POO).
 
----
+    Aprender y aplicar patrones de diseño.
 
-## 🧪 Proyectos del mundo real incluidos
+    Desarrollar aplicaciones completas (Desktop, Web y Fullstack).
 
-📁 Catálogo de Películas  
-📁 Sistema de Estudiantes (JDBC + Spring Boot)  
-📁 Tienda de Libros (Swing + Spring Boot)  
-📁 Sistema de Tareas (JavaFX + Spring Boot)  
-📁 Sistema de Empleados (JSPs + Bootstrap)  
-📁 Sistema de Contactos (Thymeleaf)  
-📁 Sistema de Cuentas Bancarias (PrimeFaces + JSF + Spring Boot)  
-📁 Sistema de Inventarios (Angular + Spring Boot)  
-📁 Administración de RRHH (React + Spring Boot)
+    Sentar las bases para futuras certificaciones en Java.
 
-Todos los proyectos están diseñados para simular escenarios laborales reales. Cada uno refleja habilidades en el desarrollo backend, frontend, y arquitectura de software moderna.
+    Prepararme para aplicar a posiciones de Java Junior y Java Semi-Senior.
 
----
+📂 Estructura del repositorio
 
-## 🎯 Objetivo profesional
+/Fundamentos-Java
+  - Variables, Ciclos, Condicionales
+  - Funciones, Arreglos, POO básica
+/POO-Avanzado
+  - Interfaces, Abstractas, Excepciones
+  - Colecciones, Archivos, DAO
+/Base-de-Datos-JDBC
+  - CRUD con MySQL y JDBC
+/SpringBoot-Proyectos
+  - Aplicaciones Web con Spring Boot, JPA y Thymeleaf
+/JavaFX-Swing
+  - Aplicaciones de escritorio integradas con base de datos
+/Fullstack
+  - Sistemas con Angular o React + Spring Boot
 
-Mi meta con este repositorio es demostrar mi crecimiento técnico y compromiso con el aprendizaje práctico de Java, con miras a conseguir oportunidades laborales como:
+🧠 Tecnologías y habilidades en desarrollo
 
-- **Java Backend Developer Jr. / Semi Sr.**
-- **Fullstack Java Developer**
-- **Spring Boot Developer**
-- **Software Engineer con foco en Java EE**
+    Java SE y Java EE (Jakarta)
 
-Estoy abierto a entrevistas, prácticas profesionales, y oportunidades freelance o de media jornada mientras finalizo mis estudios.
+    JDBC, JPA, Hibernate
 
----
+    Servlets, JSPs, JSF, PrimeFaces
 
-## 📜 Certificado
+    Spring Boot (REST APIs, Seguridad, MVC)
 
-Al finalizar el curso, obtendré el certificado oficial de Udemy por más de 150 horas de formación intensiva en desarrollo Java, respaldado por uno de los programas más reconocidos del mercado hispanohablante.
+    Swing y JavaFX
 
----
+    HTML, CSS, JavaScript
 
-## 🤝 Conectemos
+    Angular y React (nivel integrador)
 
-Si estás interesado en colaborar, contratarme o simplemente conversar sobre tecnología, ¡no dudes en escribirme!
+🏁 Proyectos destacados
 
-📧 [TuCorreo@example.com]  
-🌐 [LinkedIn](https://www.linkedin.com/in/tuusuario)  
-📍 Basado en [Tu Ciudad / País]  
+    Sistema de Gestión de Estudiantes con MySQL y JDBC
 
----
+    Tienda de Libros con Swing y Spring Boot
 
-**Gracias por visitar este repositorio. ¡Estoy emocionado por lo que viene y listo para sumarme a nuevos desafíos profesionales!**
+    Agenda de Contactos con Thymeleaf y Spring Boot
+
+    Inventario Fullstack con Angular y Spring Boot
+
+    Recursos Humanos Fullstack con React y Spring Boot
+
+💼 ¿Buscas un perfil Java comprometido?
+
+Este repositorio refleja mi compromiso por aprender de forma práctica, estructurada y con enfoque profesional. Estoy abierto a oportunidades como Java Backend Developer (Trainee o Junior) y con ganas de seguir creciendo en entornos reales.
+📬 Contacto
+
+Si te interesa conocer más sobre mis conocimientos o colaborar en proyectos:
+
+    📧 [eliseomasuelli01@gmail.com]
+
+    💼 LinkedIn www.linkedin.com/in/eliseo-masuelli-7a1823209
