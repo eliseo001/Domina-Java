@@ -8,7 +8,7 @@ public class Persona {
     }
 
     public static void main(String[] args) {
-        System.out.println("Creacion de clase y objeto persona");
+        System.out.println("Creacion de clase y objeto primera_parte.persona");
         var objeto1= new Persona();
         objeto1.nombre ="Eliseo";
         objeto1.apellido="Masuelli";
