@@ -2,6 +2,7 @@ package maquina_snacks_archivos.presentacion;
 
 import maquina_snacks_archivos.dominio.Snack;
 import maquina_snacks_archivos.servicio.IServicioSnacks;
+import maquina_snacks_archivos.servicio.ServicioSnacksArchivos;
 import maquina_snacks_archivos.servicio.ServicioSnacksLista;
 
 import java.util.ArrayList;
@@ -18,8 +19,8 @@ public class MaquinaSnacks {
         var salir = false;
         var consola = new Scanner(System.in);
         //creamos el objeto para obtener el sevicio de snack(lista)
-        IServicioSnacks servicioSnacks = new ServicioSnacksLista();
-
+       // IServicioSnacks servicioSnacks = new ServicioSnacksLista();
+        IServicioSnacks servicioSnacks = new ServicioSnacksArchivos();
         //creamos la lista de productos de tipo snack
         List<Snack> prductos = new ArrayList<>();
         System.out.println("*** Maquina de snacks ***");
@@ -43,7 +44,8 @@ public class MaquinaSnacks {
                 1. comprar snack
                 2. mostrar tikect
                 3. agregar nuevo scnack
-                4. salir
+                4. Inventario de snacks
+                5. salir
                 Elige una opocion:\s""");
         //leemos y retornamos la opcion seleccionada
         return Integer.parseInt(consola.nextLine());
@@ -56,7 +58,8 @@ public class MaquinaSnacks {
             case 1 -> comprarSnack(consola,productos,servicioSnacks);
             case 2 -> mostrarTicket(productos);
             case 3 -> agregarSnack(consola, servicioSnacks);
-            case 4 -> {
+            case 4 -> listarInventarioSnacks(consola,servicioSnacks);
+            case 5 -> {
                 System.out.println("saliendo de la maquina de snacks..........");
                 return salir=true;
             }default -> System.out.println("Opcion invalida: "+ opcion);
@@ -64,6 +67,10 @@ public class MaquinaSnacks {
         return salir;
     }
 
+    private static void listarInventarioSnacks(Scanner consola,
+                                               IServicioSnacks servicioSnacks){
+        servicioSnacks.mostrarSnacks();
+    }
     private static void comprarSnack(Scanner consola, List<Snack> productos,IServicioSnacks servicioSnacks){
         System.out.print("que snack desea comprar (id)?");
         var idSnack = Integer.parseInt(consola.nextLine());
