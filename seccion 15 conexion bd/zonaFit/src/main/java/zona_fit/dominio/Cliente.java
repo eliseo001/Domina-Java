@@ -74,4 +74,15 @@ public class Cliente {
     public int hashCode() {
         return Objects.hash(id, nombre, apellido, membresia);
     }
+
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", membresia=" + membresia +
+                '}';
+    }
 }
