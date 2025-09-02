@@ -1,0 +1,11 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+a{
+    color: hotpink;
+}
+a:hover{
+    color:yellow;
+}
