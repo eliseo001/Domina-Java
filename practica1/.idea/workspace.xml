@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6df8454a-f6f8-40e8-ab5b-5bbc7770e80c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zona_fit/objetosDoc/BicycleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zona_fit/objetosDoc/BicycleDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zona_fit/objetosDoc/BicycleDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zona_fit/objetosDoc/BicycleDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zona_fit/objetosDoc/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zona_fit/objetosDoc/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zona_fit/objetosDoc/Bicycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zona_fit/objetosDoc/Bicycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zona_fit/objetosDoc2/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zona_fit/objetosDoc2/Student.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Student">
+  <component name="RunManager" selected="Application.BicycleDemo">
     <configuration name="BicycleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zona_fit.objetosDoc.BicycleDemo" />
       <module name="practica1" />
@@ -134,9 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BicycleDemo" />
         <item itemvalue="Application.Student" />
         <item itemvalue="Application.CreateObjectDemo" />
-        <item itemvalue="Application.BicycleDemo" />
         <item itemvalue="Application.Usuario" />
         <item itemvalue="Application.Persona" />
       </list>
@@ -161,7 +162,7 @@
       <workItem from="1761705059621" duration="41000" />
       <workItem from="1761751914536" duration="2399000" />
       <workItem from="1761832789577" duration="2467000" />
-      <workItem from="1762456783067" duration="8495000" />
+      <workItem from="1762456783067" duration="10541000" />
     </task>
     <servers />
   </component>
