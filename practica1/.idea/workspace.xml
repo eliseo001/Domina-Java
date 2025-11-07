@@ -68,13 +68,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LocalClassExample">
-    <configuration name="BicycleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zona_fit.objetosDoc.BicycleDemo" />
+  <component name="RunManager" selected="Application.HelloWordAnonymousClasses">
+    <configuration name="DataStructure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zona_fit.clases_anidadas.DataStructure" />
       <module name="practica1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zona_fit.objetosDoc.*" />
+          <option name="PATTERN" value="zona_fit.clases_anidadas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataStructure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zona_fit.clases_anidadas.DataStructure" />
+    <configuration name="HelloWordAnonymousClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zona_fit.clasesAnonimas.HelloWordAnonymousClasses" />
       <module name="practica1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zona_fit.clases_anidadas.*" />
+          <option name="PATTERN" value="zona_fit.clasesAnonimas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloWordAnonymousClasses" />
         <item itemvalue="Application.LocalClassExample" />
         <item itemvalue="Application.DataStructure" />
         <item itemvalue="Application.ShadowTest" />
         <item itemvalue="Application.OuterClass" />
-        <item itemvalue="Application.BicycleDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +164,7 @@
       <workItem from="1761751914536" duration="2399000" />
       <workItem from="1761832789577" duration="2467000" />
       <workItem from="1762456783067" duration="14972000" />
-      <workItem from="1762518397580" duration="4643000" />
+      <workItem from="1762518397580" duration="5417000" />
     </task>
     <servers />
   </component>
