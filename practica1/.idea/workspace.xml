@@ -48,6 +48,8 @@
     "Application.Ciclos.executor": "Run",
     "Application.CreateObjectDemo.executor": "Run",
     "Application.DataStructure.executor": "Run",
+    "Application.Enums.executor": "Run",
+    "Application.HelloWordAnonymousClasses.executor": "Run",
     "Application.LocalClassExample.executor": "Run",
     "Application.OuterClass.executor": "Run",
     "Application.Persona.executor": "Run",
@@ -68,13 +70,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HelloWordAnonymousClasses">
+  <component name="RunManager" selected="Application.Enums">
     <configuration name="DataStructure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zona_fit.clases_anidadas.DataStructure" />
       <module name="practica1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="zona_fit.clases_anidadas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Enums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zona_fit.enums.Enums" />
+      <module name="practica1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zona_fit.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,19 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OuterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zona_fit.clases_anidadas.OuterClass" />
-      <module name="practica1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zona_fit.clases_anidadas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShadowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zona_fit.clases_anidadas.ShadowTest" />
       <module name="practica1" />
@@ -136,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Enums" />
         <item itemvalue="Application.HelloWordAnonymousClasses" />
         <item itemvalue="Application.LocalClassExample" />
         <item itemvalue="Application.DataStructure" />
         <item itemvalue="Application.ShadowTest" />
-        <item itemvalue="Application.OuterClass" />
       </list>
     </recent_temporary>
   </component>
@@ -164,11 +166,26 @@
       <workItem from="1761751914536" duration="2399000" />
       <workItem from="1761832789577" duration="2467000" />
       <workItem from="1762456783067" duration="14972000" />
-      <workItem from="1762518397580" duration="5417000" />
+      <workItem from="1762518397580" duration="8814000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/zona_fit/enums/Enums.java</url>
+          <line>21</line>
+          <properties class="zona_fit.enums.Enums" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
