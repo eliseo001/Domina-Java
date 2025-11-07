@@ -1,0 +1,27 @@
+package zona_fit.clases_anidadas;
+
+public class ShadowTest {
+    public int x = 0;
+
+    class FirstLevel {
+        public int x = 1;
+
+        void methodInFirstLevel(int x) {
+            System.out.println("x = " + x);
+            System.out.println("this.x = " + this.x);
+            System.out.println("ShadowTest.this.x = " + ShadowTest.this.x);
+            System.out.println("Shadow.this.x = " + ShadowTest.this.x);
+
+        }
+    }
+    public static void main(String[] args) {
+        ShadowTest st = new ShadowTest();
+
+        ShadowTest.FirstLevel f1  = st.new FirstLevel();
+
+        f1.methodInFirstLevel(23);
+
+        System.out.println("this.x = " + f1.x);
+
+    }
+}
