@@ -31,7 +31,7 @@ public class ZonaFitForma extends JFrame{
         guardarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                
+
             }
         });
     }
@@ -68,5 +68,5 @@ public class ZonaFitForma extends JFrame{
         });
     }
 
-
+//
 }
