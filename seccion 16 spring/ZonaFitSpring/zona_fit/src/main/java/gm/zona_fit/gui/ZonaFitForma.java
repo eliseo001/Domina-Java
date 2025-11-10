@@ -7,11 +7,20 @@ import org.springframework.stereotype.Component;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 @Component
 public class ZonaFitForma extends JFrame{
     private JPanel panelPrincipal;
     private JTable clientesTabla;
+    private JTextField nombreTexto;
+    private JTextField apellidoTexto;
+    private JTextField membresiaTexto;
+    private JButton guardarButton;
+    private JButton eliminarButton;
+    private JButton limpiarButton;
+
     IClienteServicio clienteServicio;
     private DefaultTableModel tableModeloClientes;
 
@@ -19,6 +28,12 @@ public class ZonaFitForma extends JFrame{
     public ZonaFitForma(ClienteServicio clienteServicio){
         this.clienteServicio = clienteServicio;
         iniciarForma();
+        guardarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                
+            }
+        });
     }
     private void iniciarForma(){
         setContentPane(panelPrincipal);
@@ -52,4 +67,6 @@ public class ZonaFitForma extends JFrame{
             this.tableModeloClientes.addRow(renglonCliente);
         });
     }
+
+
 }
